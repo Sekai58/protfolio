@@ -1,10 +1,19 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavBar />
+      <Home />
+      <About />
+      <Portfolio />
+      <Skills />
+      <Contact />
     </div>
   );
 }
